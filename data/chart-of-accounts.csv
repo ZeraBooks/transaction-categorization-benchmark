@@ -1,0 +1,35 @@
+account,name,group,what_goes_here
+1000,Transfer between own accounts,transfer,"Money moving between the business's own bank, savings or card accounts. Not income or expense."
+1500,Equipment and fixed assets,asset,"Items over the capitalization threshold ($2,500 in this benchmark, the IRS de minimis safe harbor amount without an audited financial statement)."
+2100,Credit card payment,liability,Paying the business credit card bill from the bank account. The charges were already expensed on the card.
+2300,Sales tax payment,liability,Remitting sales tax collected from customers.
+2700,Loan payment,liability,A payment on a loan or equipment financing. Needs a split between principal and interest.
+3000,Owner contribution,equity,Money the owner puts into the business.
+3100,Owner draw or distribution,equity,"Money the owner takes out, including personal estimated tax payments made from a pass-through business account."
+4000,Revenue,revenue,"Sales and service income, including card processor and marketplace payouts and insurance reimbursements."
+4900,Refunds to customers,revenue,Money returned to customers. A contra-revenue account.
+5000,Cost of goods and materials,cost_of_sales,"Inventory, ingredients, materials and supplies used to make what is sold."
+5100,Subcontractors,cost_of_sales,Outside workers paid per job.
+5200,Fuel (cost of revenue),cost_of_sales,Fuel for a business whose revenue is moving things: trucking and freight.
+6000,Wages,expense,Employee net pay.
+6010,Payroll taxes and fees,expense,Payroll tax debits and payroll service fees.
+6100,Rent,expense,Rent for premises.
+6110,Utilities,expense,"Power, gas, water, trash."
+6120,Phone and internet,expense,
+6200,Software and subscriptions,expense,
+6210,Advertising and marketing,expense,
+6220,Meals,expense,"Business meals. Deductibility limits are applied at tax time, not here."
+6230,Travel,expense,"Airfare, hotels, rideshare and car rental while traveling."
+6240,Vehicle and fuel,expense,Fuel and vehicle costs for a business that isn't in transport.
+6250,Office supplies,expense,
+6260,Repairs and maintenance,expense,
+6270,Insurance,expense,
+6280,Professional fees,expense,"Accounting, legal and consulting."
+6290,Bank and merchant fees,expense,
+6300,Shipping and postage,expense,
+6310,Dues and memberships,expense,
+6320,Training and education,expense,
+6350,Taxes and licenses,expense,"Business licenses, registrations and non-income business taxes."
+6360,Lab and clinical supplies,expense,Clinical supplies for a healthcare practice that are consumed rather than resold.
+8000,Interest income,other_income,
+9999,Ask the client,review,"The bank line alone can't say what this is (a Venmo or Zelle to a person, a cash withdrawal). The right answer is to ask."

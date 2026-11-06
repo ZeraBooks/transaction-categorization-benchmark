@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "Bookkeeping Transaction Categorization Benchmark"
+type: dataset
+authors:
+  - name: "Zera Books Inc. (ZeraBooks)"
+    website: "https://www.zerabooks.com"
+version: 1.0.0
+date-released: 2026-11-05
+url: "https://www.zerabooks.com/ai-bookkeeping"
+repository-code: "https://github.com/ZeraBooks/transaction-categorization-benchmark"
+license: MIT
+abstract: "A labelled benchmark of fictional small-business bank transactions mapped to a standard chart of accounts, with a scorer that measures any categorization tool's accuracy and errors."
+keywords:
+  - ai-bookkeeping
+  - transaction-categorization
+  - benchmark
+  - chart-of-accounts
+  - dataset

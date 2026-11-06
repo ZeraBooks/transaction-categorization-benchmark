@@ -1,0 +1,81 @@
+{
+  "name": "transaction-categorization-benchmark",
+  "version": "1.0.0",
+  "released": "2026-11-05",
+  "publisher": "Zera Books Inc. (ZeraBooks)",
+  "homepage": "https://www.zerabooks.com/ai-bookkeeping",
+  "repository": "https://github.com/ZeraBooks/transaction-categorization-benchmark",
+  "license_code": "MIT",
+  "license_data": "CC-BY-4.0",
+  "fictional_data": true,
+  "file_counts": {
+    "baselines": 6,
+    "data": 5
+  },
+  "files": [
+    {
+      "path": "baselines/cold-merchant-only.csv",
+      "bytes": 41226,
+      "sha256": "203d5f7f5e4164a21471f1b0b829c87e967fd39b3ee2c26561f0970c497ec6d9",
+      "rows": 3170
+    },
+    {
+      "path": "baselines/cold-merchant-plus-industry.csv",
+      "bytes": 41226,
+      "sha256": "415bdefb66f1881e6d0a7ff2c5dc0e3ca4c275c099d2eadd01afdc3d6aa7b3c8",
+      "rows": 3170
+    },
+    {
+      "path": "baselines/merchant_lookup.py",
+      "bytes": 2944,
+      "sha256": "eb29ccb90142cc7801ecc78e62e1e9e6d51cff7cc23f151ff26cf34d872da769"
+    },
+    {
+      "path": "baselines/run_all.sh",
+      "bytes": 508,
+      "sha256": "677f3ef8cc51c91678f7b7c9859f485a501673ccdd3665ee5db855821aa9a023"
+    },
+    {
+      "path": "baselines/warm-merchant-only.csv",
+      "bytes": 41226,
+      "sha256": "b7ccb0fafcc8a8cd812abb5b1fec3fc65f377b588a92185dc7230dde0234cdab",
+      "rows": 3170
+    },
+    {
+      "path": "baselines/warm-merchant-plus-industry.csv",
+      "bytes": 41226,
+      "sha256": "7083495e81f281da90d1282221d53b040aa304ca5be8f8868e0b4e23a473a9ba",
+      "rows": 3170
+    },
+    {
+      "path": "data/businesses.csv",
+      "bytes": 746,
+      "sha256": "aaf11e51cc68200e695c66d0837160e5f62effd807c4eb1dda66418382f36c9d",
+      "rows": 12
+    },
+    {
+      "path": "data/chart-of-accounts.csv",
+      "bytes": 2774,
+      "sha256": "014537f2224848ca6aaebbb07c20bab2038fd1237740719eda3bd717c20f4338",
+      "rows": 34
+    },
+    {
+      "path": "data/labels.csv",
+      "bytes": 215283,
+      "sha256": "a1aefb13bb4414c787b936826cedd236fb45bb3ed6549aa28de4ea8a493bc1fd",
+      "rows": 3170
+    },
+    {
+      "path": "data/splits.csv",
+      "bytes": 55101,
+      "sha256": "32d4aeec64d52aafef4665b0173e70b6f52b7e015c77450ecbc7a7aed3ea8fda",
+      "rows": 3170
+    },
+    {
+      "path": "data/transactions.csv",
+      "bytes": 193974,
+      "sha256": "ded34e00bb2c48f7525ee5c121dffc581c3cfcd21a6d40891c04db23173b52cb",
+      "rows": 3170
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+business_id,name,industry,entity_type,collects_sales_tax
+B01,Juniper Lane Bakery LLC,bakery,single-member LLC,yes
+B02,Okafor Family Dental PC,dental,professional corporation,no
+B03,Brightwater Landscaping Inc,landscaping,S corporation,no
+B04,Redline Freight Co,trucking,single-member LLC,no
+B05,Marisol Vega CPA,cpa_firm,sole proprietor,no
+B06,Copperline Electric LLC,electrical,multi-member LLC,no
+B07,Fernhill Goods,ecommerce,single-member LLC,yes
+B08,Northpaw Creative Studio,agency,S corporation,no
+B09,Daybreak Coffee Bar,coffee_shop,single-member LLC,yes
+B10,Ironwood Property Management,property_mgmt,multi-member LLC,no
+B11,Quiet Harbor Counseling,therapy,professional LLC,no
+B12,Tan & Ruiz Law Group,law_firm,partnership,no
